@@ -253,6 +253,7 @@ h3,
 h4 {
     color: #000303;
     line-height: 44px;
+    font-family: "simonetta-black-italic";
 
 }
 
@@ -405,6 +406,8 @@ h5 {
 .row{
     padding: 66px 0 44px 0;
     background-color: #fff;
+   
+    
 }
 
 .row,
@@ -510,6 +513,10 @@ textarea {
     display: block;
     margin: 5px 0 27px 0;
     padding: 5px 8px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .register-group input,
@@ -608,6 +615,7 @@ table h4 {
 
 .venue-threatre {
     margin-bottom: 66px;
+    font-family: "simonetta-black-italic";
 }
 
 .venue-hotel {
@@ -619,4 +627,14 @@ table h4 {
 }
 #hov {
     background-color:rgba(255, 140, 0, 0.377);
+    background-color: lightblue;
+}
+#scroll {
+    width: 100%;
+    height: 80vh;
+    overflow-y: scroll;
+}
+.taille {
+    width: 960px;
+    margin: 0 auto;
 }
